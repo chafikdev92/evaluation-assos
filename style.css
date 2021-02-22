@@ -1,9 +1,10 @@
 .body {
-    ;
+    background-color: rgb(252, 244, 244);
 }
 
 
 /* ********************** CSS NAVBAR *************** */
+
 
 
 .navbar {
@@ -12,9 +13,24 @@
     margin-bottom: 5px;
     position: fixed;
     z-index: 1000;
-    font-weight: 500;
-    color: black;
     
+}
+
+
+/* ********************* ACCEUIL / logo / bouton faire un don *********************** */
+.nav-item-acceuil {
+    background-color: lightgrey;
+    text-decoration: none;
+}
+
+.nav-item-acceuil :hover {
+    color: pink;
+    background-color: yellow;
+}
+
+.btn {
+    color: red;
+    padding-left: 1rem;
 }
 
 /* ********************* Nav Iteme *********************** */
@@ -30,11 +46,15 @@
 .nav-item :hover {
     color: white;
     background-color: rgb(80, 215, 205);
-    font-weight: 700;
-    font-size: 1.4rem;
-   
 }
 
+
+.titre-1 {
+    text-align: left;
+    padding-right: 2rem;
+
+
+}
 
 .Logo {
     height: 3rem;
