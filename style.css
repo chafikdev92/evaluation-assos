@@ -1,8 +1,69 @@
+.body {
+    background-color: rgb(252, 244, 244);
+}
+
+
+/* ********************** CSS NAVBAR *************** */
+
+
+
 .navbar {
     width: 100%;
-    background-color: rgb(192, 219, 231);
     top: 0;
     margin-bottom: 5px;
     position: fixed;
     z-index: 1000;
+    
+}
+
+
+/* ********************* ACCEUIL / logo / bouton faire un don *********************** */
+.nav-item-acceuil {
+    background-color: lightgrey;
+    text-decoration: none;
+}
+
+.nav-item-acceuil :hover {
+    color: pink;
+    background-color: yellow;
+}
+
+.btn {
+    color: red;
+    padding-left: 1rem;
+}
+
+/* ********************* Nav Iteme *********************** */
+
+.nav-item {
+
+    color: black;
+    text-align: center;
+    width: 100%;
+
+}
+
+.nav-item :hover {
+    color: white;
+    background-color: rgb(80, 215, 205);
+}
+
+
+.titre-1 {
+    text-align: left;
+    padding-right: 2rem;
+
+
+}
+
+.Logo {
+    height: 3rem;
+    width: 3rem;
+
+}
+
+@media screen and (min-width: 900px) {
+    .titre-1 {
+        display: none;
+    }
 }
