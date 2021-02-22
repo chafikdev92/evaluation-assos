@@ -1,5 +1,5 @@
 .body {
-    background-color: rgb(252, 244, 244);
+;
 }
 
 
@@ -16,31 +16,17 @@
     
 }
 
+.Logo {
+    height: 3rem;
+    width: 3rem;
 
-/* ********************* ACCEUIL / logo / bouton faire un don *********************** */
-.nav-item-acceuil {
-    background-color: lightgrey;
-    text-decoration: none;
-}
-
-.nav-item-acceuil :hover {
-    color: pink;
-    background-color: yellow;
-}
-
-.btn {
-    color: red;
-    padding-left: 1rem;
 }
 
 /* ********************* Nav Iteme *********************** */
 
 .nav-item {
-
-    color: black;
     text-align: center;
     width: 100%;
-
 }
 
 .nav-item :hover {
@@ -49,21 +35,15 @@
 }
 
 
-.titre-1 {
-    text-align: left;
-    padding-right: 2rem;
-
-
+.assos {
+  
+    
 }
 
-.Logo {
-    height: 3rem;
-    width: 3rem;
 
-}
 
 @media screen and (min-width: 900px) {
-    .titre-1 {
+    .assos {
         display: none;
     }
 }
