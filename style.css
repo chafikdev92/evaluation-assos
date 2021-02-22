@@ -1,14 +1,14 @@
 .body {
-;
+
 }
 
 
 /* ********************** CSS NAVBAR *************** */
 
 
-
 .navbar {
     width: 100%;
+    background-color: rgb(255, 255, 255);
     top: 0;
     margin-bottom: 5px;
     position: fixed;
@@ -35,15 +35,43 @@
 }
 
 
-.assos {
-  
-    
-}
-
-
-
 @media screen and (min-width: 900px) {
     .assos {
         display: none;
     }
 }
+
+/* ************** css carousselle ***************** */
+.carousselle {
+    height: 50rem;
+    width: 100%;
+  }
+  
+  .img-car {
+    height: 50rem;
+    width: 100%;
+    
+  }
+  
+  .img-min {
+  
+    height: 20rem;
+    width: 100%;
+  
+  }
+
+  
+
+  @media screen and (max-width: 900px) {
+      .img-car {
+        display: none;
+        float: left;
+      }
+    }
+  
+    @media screen and (min-width: 900px) {
+      .img-min {
+          
+        display: none;
+      }
+    }
