@@ -43,12 +43,12 @@
 
 /* ************** css carousselle ***************** */
 .carousselle {
-    height: 50rem;
+    height: 100%;
     width: 100%;
   }
   
   .img-car {
-    height: 50rem;
+    height: 100%;
     width: 100%;
     
   }
@@ -71,7 +71,7 @@
   
     @media screen and (min-width: 900px) {
       .img-min {
-          
+        
         display: none;
       }
     }
