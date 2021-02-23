@@ -90,6 +90,8 @@
   margin-left: 1rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
+width: 100%;
+ 
 }
 
 .card-title {
@@ -100,6 +102,11 @@
   color: rgba(255, 107, 107, 1);
 }
 
+.actu {
+
+  font-size: 2rem;
+}
+
 /* <!-- ************************  Footer  ************************************************************ --> */
 
 .footer {
@@ -107,4 +114,10 @@
   background-color: rgba(255, 107, 107, 1);
   color: white;
   text-align: center;
+}
+
+.container {
+  
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
