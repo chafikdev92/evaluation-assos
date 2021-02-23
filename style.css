@@ -1,77 +1,100 @@
-.body {
-
-}
+.body {}
 
 
 /* ********************** CSS NAVBAR *************** */
 
 
 .navbar {
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    top: 0;
-    margin-bottom: 5px;
-    position: fixed;
-    z-index: 1000;
-    
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  top: 0;
+  margin-bottom: 5px;
+  position: fixed;
+  z-index: 1000;
+
 }
 
 .Logo {
-    height: 3rem;
-    width: 3rem;
+  height: 3rem;
+  width: 3rem;
 
 }
 
 /* ********************* Nav Iteme *********************** */
 
 .nav-item {
-    text-align: center;
-    width: 100%;
+  text-align: center;
+  width: 100%;
 }
 
 .nav-item :hover {
-    color: white;
-    background-color: rgb(80, 215, 205);
+  color: white;
+  background-color: rgb(80, 215, 205);
 }
 
 
 @media screen and (min-width: 900px) {
-    .assos {
-        display: none;
-    }
+  .assos {
+    display: none;
+  }
 }
 
 /* ************** css carousselle ***************** */
 .carousselle {
-    height: 100%;
-    width: 100%;
-  }
-  
+  height: 100%;
+  width: 100%;
+}
+
+.img-car {
+  height: 100%;
+  width: 100%;
+
+}
+
+.img-min {
+
+  height: 20rem;
+  width: 100%;
+
+}
+
+
+
+@media screen and (max-width: 900px) {
   .img-car {
-    height: 100%;
-    width: 100%;
-    
+    display: none;
+    float: left;
   }
-  
+}
+
+@media screen and (min-width: 900px) {
   .img-min {
-  
-    height: 20rem;
-    width: 100%;
-  
+
+    display: none;
   }
+}
 
-  
+/* ************************** corp du site / cards **************** */
 
-  @media screen and (max-width: 900px) {
-      .img-car {
-        display: none;
-        float: left;
-      }
-    }
-  
-    @media screen and (min-width: 900px) {
-      .img-min {
-        
-        display: none;
-      }
-    }
+
+.btn {
+  background-color: rgb(80, 215, 205);
+  color: rgba(255, 107, 107, 1);
+  font-weight: 500;
+}
+
+.card-title-1 {
+  color: rgba(255, 107, 107, 1);
+}
+
+.card-x {
+  background-color: rgb(243, 241, 241);
+}
+
+
+.card {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
