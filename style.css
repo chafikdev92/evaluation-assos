@@ -98,3 +98,12 @@
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
+
+.card-title {
+
+  font-weight: 700;
+}
+.age {
+
+  color: rgba(255, 107, 107, 1);
+}
