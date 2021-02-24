@@ -1,16 +1,14 @@
-
-
 /* ********************** CSS NAVBAR *************** */
 
 
 .navbar {
   width: 100%;
-  background-color:#fafafa ;
+  background-color: #fafafa;
   top: 0;
   margin-bottom: 5px;
   position: fixed;
   z-index: 1000;
- 
+
 
 }
 
@@ -21,7 +19,7 @@
 .nav-link {
   color: black;
 }
- 
+
 .Logo {
   height: 3rem;
   width: 3rem;
@@ -65,7 +63,7 @@
   .img-car {
     display: none;
     float: left;
-    margin-left :0
+    margin-left: 0
   }
 }
 
@@ -85,7 +83,7 @@
 }
 
 .card-body {
-padding: 1rem 0rem;
+  padding: 1rem 0rem;
 }
 
 .card-title-1 {
@@ -123,17 +121,17 @@ padding: 1rem 0rem;
 /* <!-- ************************  Footer  ************************************************************ --> */
 
 .footer {
-  padding : 1rem;
+  padding: 1rem;
   background-color: rgba(255, 107, 107, 1);
   color: white;
   text-align: center;
 }
 
-.footer h3{
+.footer h3 {
   padding-bottom: 1rem;
 }
 
-.footer p{
+.footer p {
   margin-bottom: 0rem;
   font-size: 0.75rem;
 }
@@ -143,3 +141,8 @@ padding: 1rem 0rem;
   padding-right: 1rem;
 }
 
+
+.date {
+  color: grey;
+  font-weight: 700;
+}
