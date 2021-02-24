@@ -1,21 +1,30 @@
 
+
 /* ********************** CSS NAVBAR *************** */
+
 
 .navbar {
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color:#fafafa ;
   top: 0;
   margin-bottom: 5px;
   position: fixed;
   z-index: 1000;
-  border-radius: 3px;
-  color: blue;
+ 
+
 }
 
+.navbar h1 a {
+  color: black;
+}
+
+.nav-link {
+  color: black;
+}
+ 
 .Logo {
-  height: 5rem;
-  width: 5rem;
-  margin-bottom: 1rem;
+  height: 3rem;
+  width: 3rem;
 }
 
 /* ********************* Nav Iteme *********************** */
@@ -43,9 +52,7 @@
 }
 
 .img-car {
-  height: 50rem;
-  width: 80rem;
-  margin-left: 3rem;
+  width: 100%;
 }
 
 .img-min {
@@ -58,6 +65,7 @@
   .img-car {
     display: none;
     float: left;
+    margin-left :0
   }
 }
 
@@ -71,8 +79,13 @@
 
 .btn {
   background-color: rgb(80, 215, 205);
-  color: rgba(255, 107, 107, 1);
+  color: rgb(255, 255, 255);
   font-weight: 500;
+  padding: .75rem .75rem;
+}
+
+.card-body {
+padding: 1rem 0rem;
 }
 
 .card-title-1 {
@@ -88,8 +101,8 @@
   margin-left: 1rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
-width: 100%;
- 
+  width: 100%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
 }
 
 .card-title {
@@ -103,24 +116,30 @@ width: 100%;
 /* ****  page actu ************************************************  */
 
 .actu {
-
   font-size: 2rem;
 }
-
-
 
 
 /* <!-- ************************  Footer  ************************************************************ --> */
 
 .footer {
-  margin-top: 2rem;
+  padding : 1rem;
   background-color: rgba(255, 107, 107, 1);
   color: white;
   text-align: center;
 }
 
+.footer h3{
+  padding-bottom: 1rem;
+}
+
+.footer p{
+  margin-bottom: 0rem;
+  font-size: 0.75rem;
+}
+
 .container {
-  
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
