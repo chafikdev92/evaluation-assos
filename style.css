@@ -121,3 +121,16 @@ width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.box {
+position: relative;
+  height: 20rem;
+  width: 30rem;
+display: block;
+ overflow: hidden;
+;
+}
+
+.date {
+  color: grey;
+  font-weight: 700;
+}
